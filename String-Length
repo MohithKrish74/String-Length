@@ -1,0 +1,22 @@
+package com.company;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the String: ");
+        String string=in.nextLine();
+        int length=string.length();
+        System.out.println("The length of the string is :"+length);
+    }
+}
+
+
+
+
+
+
+
